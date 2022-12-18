@@ -1,0 +1,25 @@
+.wrapper {
+	width: 100%;
+	padding-left: var(--cui-sidebar-occupy-start, 0);
+	will-change: auto;
+	transition: padding 0.15s;
+}
+
+p {
+    text-align: justify;
+}
+
+.fade:not(.show) {
+	display: none;
+}
+
+@media screen and (min-width: 1080px) {
+    .img-shrink {
+        height: 50% !important;
+        width: 50% !important;
+        float: right;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
